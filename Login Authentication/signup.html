@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/png" href="loginIcon.jpeg">
+</head>
+<body>
+    <main class="signUpBody">
+        <div class="container">
+            <form class="signform" action="#">
+                <h1>SignUp</h1>
+
+                <input type="text" placeholder="Username" id="signUsername" required>
+                <br><br>
+                <input type="password" placeholder="Password" id="signPass" required>
+                <br><br>
+                <button onclick="signUp()">SignUp</button>
+                <br>
+                <p><a href="login.html">Back to Login</a></p>
+            </form>
+        </div>
+        <br><br><br>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>

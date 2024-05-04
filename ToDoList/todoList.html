@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList App</title>
+    <link rel="stylesheet" href="toDoList.css">
+    <link rel="icon" type="image/png" href="toDo.jpeg">
+</head>
+<body>
+
+    <header>
+        <h1>To Do List</h1>
+        <h2 id="Toptime"></h2>
+    </header>
+
+    <main>
+
+        <div class="middle">
+            <input class="inputText" type="text" id="input" placeholder="Enter your task here">
+            <input class="addButton" type="button" id="add" value="+">
+               
+        </div>
+        <br><br>
+
+        <div class="middle">
+
+            <!-- Pending Tasks Side -->
+
+            <div class="mainDiv1" id="containerComplete">
+                <h4>Pending Tasks</h4><br>
+
+                <div id="tasksDiv">
+                                     
+                     
+                </div>               
+
+            </div>
+    
+            <!-- Complete Tasks Side -->
+
+            <div class="mainDiv2" id="containerPending" >
+                <h4>Completed Tasks</h4>
+                <br>
+
+                <div id="completeTasksDiv">
+                     
+
+                </div>
+
+            </div>
+       
+            <br><br>
+            
+        </div>
+    </main>
+    
+    <footer>
+        <h1>By Chukwuma</h1>
+    </footer>
+
+    <script src="toDoList.js"></script>
+</body>
+</html>

@@ -1,0 +1,326 @@
+body{
+    color: rgb(235, 161, 104);
+    margin:0;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    margin-left: 9px;
+}
+div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 15.6vw;
+}
+
+.mainbutton{
+ border: none;
+ background-color: rgb(14, 100, 158);
+ border-radius: 70%;
+ width: 120px;
+ height: 100px;
+ cursor:pointer;
+ font-size: 50px;
+ transition: width 0.3s ease, height 0.3s ease;
+ box-shadow: 7px 4px 10px rgb(8, 90, 108);
+ color: rgb(79, 52, 41);
+
+}
+
+.mainbutton:hover {
+    box-shadow: 0 12px 16px 12px rgba(210, 10, 10, 0.24), 0 17px 50px 0 rgba(3, 76, 110, 0.19);
+    transform: scale(1.1);
+  }
+
+header{
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+}
+
+footer{
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+    font-family: fantasy;
+}
+
+.left{
+    align-items:flex-end;
+    justify-content: center;
+    display: flex;
+    margin-left: 25%;
+}
+
+.header{
+    font-size: 50px;
+    color: rgb(67, 161, 205);
+    font-family: fantasy;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(79, 52, 41);
+}
+
+/* Main page  */
+.mainbody{
+    background-image: url("OkMalumKoolKat3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;  
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* About page  */
+.aboutbody{
+    background-image: url("/About/Okmalumkoolkat2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:950px;
+}
+
+.aboutText{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255,0.5 );
+    font-size: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.backButton{
+ border: none;
+ background-color: rgba(42, 97, 165, 0.484);
+ border-radius: 60%;
+ height: 100px; 
+ cursor:pointer;
+ font-size: 50px;
+ transition: width 0.3s ease, height 0.3s ease;
+}
+
+/* Music page  */
+.musicbody{
+    background-image: url("/Music/okmalumusic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 49vw;
+}
+.musicfont{
+    background-color: rgba(255, 255, 255,0.5 );
+    height: 50vh;
+    width: 50%;
+    color: black;
+    margin-left: 50%;
+    border-radius: 20px;
+    text-align: center;
+}
+.headerfont{
+    color: rgba(181, 33, 52, 0.856);
+    font-style: oblique;
+}
+
+.musicbackButton{
+    border: none;
+    background-color: rgba(165, 93, 42, 0.938);
+    border-radius: 60%;
+    height: 100px; 
+    cursor:pointer;
+    font-size: 50px;
+    transition: width 0.3s ease, height 0.3s ease;
+   }
+
+   /* School page  */
+   .schoolbody{
+    background-image: url("/School/okschool.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 56vw;
+}
+
+.schoolFont{
+    background-color: rgba(255, 255, 255,0.5 );
+    border-radius: 20px;
+    height: 50vh;
+    width: 50%;
+    margin-left: 25%;
+    color: black;
+    text-align: center;
+}
+
+/* Career page  */
+.careerbody{
+    background-image: url("/career/okcareer1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 74.5vw;
+}
+
+.careerBody{
+    color:  rgb(0, 0, 0);
+    font-size: 20px;
+    width: 70%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255,0.5 );
+}
+
+.careerFont{
+    color:rgb(97, 97, 97);
+}
+
+/* Collabo page  */
+.collabobody{
+    background-image: url("/Collaborations/collab.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vw;
+}
+
+.collabheader{
+    color: rgb(255, 174, 0);
+}
+
+.collaboColor{
+    color:  rgba(255, 255, 255, 0.826);
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.7) ;
+    width: 70%;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.textColor{
+    color: rgba(255, 255, 255, 0.867);
+    background-color: rgba(0, 0, 0, 0.7) ;
+    width: 64%;
+    margin-left: 18%;
+    border-radius: 20px;
+    text-align: center;
+    height: 60vh;
+}
+
+/* Tours page  */
+.tourbody{
+    background-image: url("/InternationalTours/oktours.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 71vw;
+}
+
+.tourcolor{
+    color: rgb(120, 117, 117);
+}
+
+/* Entrepreneur page  */
+.spovabody{
+    background-image: url("/Entrepreneur/spova.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 65vw;
+}
+
+.spovaColor{
+    color:black;
+    background-color:rgba(255, 255, 255, 0.3) ;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 20px;
+    text-align: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Family page  */
+.fambody{
+    background-image: url("/Family/fam.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 74vw;
+}
+
+.famColor{
+    color:black;
+    background-color:rgba(6, 134, 160, 0.327) ;
+    width: 40%;
+    margin-left: 27%;
+    border-radius: 20px;
+    text-align: center;
+    height: 50vh;
+}
+
+.famhead{
+    color: rgb(6, 39, 97);
+    font-family: cursive;
+}
+.famfoot{
+    color: black;
+}
+
+/* Influ page  */
+.influbody{
+    background-image: url("/Influence/influ.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+
+.influhead{
+    color: rgb(109, 38, 137);
+    font-family: cursive;
+}
+
+.influColor{
+    color:black;
+    background-color: rgba(255, 255, 255,0.5 );
+    font-size: 1em;
+    text-align: center;
+    width: 70%;
+    border-radius: 20px;
+    margin-left: 14%;
+}
+
+.heightBig{
+    height: 33vw;
+    width: 50%;
+}
+
+.middle{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tallheight{
+    height: 580px;
+}
+
+.mainText{
+    color:  rgb(133, 176, 229);
+    padding: 30px;
+    font-size: 25px;
+}

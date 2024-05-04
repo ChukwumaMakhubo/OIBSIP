@@ -1,0 +1,111 @@
+body{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 22px;
+    text-align: center;
+    background-image: url("toBackground.jpg");
+    background-repeat: no-repeat;
+    height: 1vh;
+}
+
+.toDoIcon{
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 8px 9px 10px rgb(0, 0, 0);
+}
+
+.toDoIcon:hover{
+    height: 40px;
+    width: 45px;
+}
+
+.pendingCont{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    width: 68%;
+    margin-left: 8%;
+    margin-right: -150px;
+    margin-bottom: 20px;
+    float: left;
+    height: 20px;
+    font-size: 18px;
+}
+
+.completeCont{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px; 
+    width: 70%;
+    margin-left: 8%;
+    margin-right: -60px;
+    margin-bottom: 20px;
+    float: left;
+    height: 20px;
+    font-size: 18px;
+}
+
+.inputText{
+    background-color: transparent;
+    border: 2px solid rgb(18, 17, 17);
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.addButton{
+    text-decoration: none;
+    font-size: 35px;
+    background-color: rgb(85, 84, 84);
+    border-radius: 20px;
+    box-shadow: 8px 9px 10px rgb(0, 0, 0);
+    width: 40px;
+}
+
+.addButton:hover{
+    height: 45px;
+    width: 45px;
+}
+
+.mainDiv1{
+    width: 50%;
+    background-color:rgba(151, 92, 46, 0.542);
+    justify-content: center;
+    align-items: center;
+    float: right;
+    display: inline;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    height: 80vh;
+    overflow: auto;
+}
+
+.mainDiv2{
+    width: 50%;
+    background-color: rgba(18, 44, 37, 0.351);
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    height: 80vh;
+    overflow: auto;
+}
+
+.middle{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.taskContainer{
+    position: relative;
+    display: block;
+}
+
+.taskContainer2{
+    position: relative;
+    display: block;
+}
