@@ -55,29 +55,6 @@ function login(event) {
     }
 }
 
-// function login() {
-//     let username = document.getElementById("loginUserName").value;
-//     let password = document.getElementById("loginPassword").value;
-
-//     let userInfo = JSON.parse(localStorage.getItem('userData')) || [];
-//     let user = userInfo.find(ui => ui.username === username);
-
-//     if (user) {
-//         let decryptedPassword = CryptoJS.AES.decrypt(user.password, 'secret key').toString(CryptoJS.enc.Utf8);
-        
-//         console.log("Decrypted Password:", decryptedPassword); // Debugging
-//         console.log("Input Password:", password); // Debugging
-
-//         if (decryptedPassword === password) {
-//         } else {
-//             alert("Invalid username or password");
-//         }
-//     } else {
-//         alert("User not found");
-//     }
-// }
-
-
 window.onload = function(){
     login()
     signUp()
